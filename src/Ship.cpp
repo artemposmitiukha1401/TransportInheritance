@@ -12,7 +12,7 @@ Ship::Ship(std::string name, int release_year, double max_speed, double weight, 
 
 void Ship::Print() const {
     Transport::Print();
-    std::cout << "Propellers count: " << this->propellers_count << std::endl;
+    std::cout << "\nPropellers count: " << this->propellers_count << std::endl;
     std::cout << "Waterline: " << this->waterline << std::endl;
 }
 
