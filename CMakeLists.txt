@@ -11,4 +11,10 @@ add_executable(TransportInheritance src/main.cpp
         src/Airplane.cpp
         include/Airplane.h
         src/Ship.cpp
-        include/Ship.h)
+        include/Ship.h
+        src/Tank.cpp
+        include/Tank.h
+        src/Bicycle.cpp
+        include/Bicycle.h
+        src/Car.cpp
+        include/Car.h)

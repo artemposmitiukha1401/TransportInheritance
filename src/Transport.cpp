@@ -9,9 +9,9 @@ Transport::Transport(std::string name, int release_year, double max_speed, doubl
 }
 
 void Transport::Print() const {
-    std::cout << "Transport: " << this->name << std::endl;
-    std::cout << "Release Year: " << this->release_year << std::endl;
-    std::cout << "Max Speed: " << this->max_speed << std::endl;
-    std::cout << "Weigh: " << this->weight << std::endl;
-    std::cout << "Passengers: " << this->passengers_count << std::endl;
+    std::cout << "\nTransport: " << this->name;
+    std::cout << "\nRelease Year: " << this->release_year;
+    std::cout << "\nMax Speed: " << this->max_speed;
+    std::cout << "\nWeigh: " << this->weight;
+    std::cout << "\nPassengers: " << this->passengers_count;
 }

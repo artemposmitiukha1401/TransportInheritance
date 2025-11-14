@@ -9,6 +9,6 @@ Truck::Truck(std::string name, int release_year, double max_speed, double weight
 
 void Truck::Print() const {
     Transport::Print();
-    std::cout <<"\nWheel size: " << this->wheel_size << std::endl;
+    std::cout <<"\nWheel size: " << this->wheel_size;
     std::cout << "\nEngine volume: " << this->engine_volume << std::endl;
 }

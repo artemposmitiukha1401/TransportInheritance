@@ -4,7 +4,6 @@
 
 class Transport {
 protected:
-
     std::string name;
     int release_year = 0;
     double max_speed = 0;
@@ -12,9 +11,10 @@ protected:
     int passengers_count = 0;
 
 public:
-
     Transport(std::string name, int release_year, double max_speed, double weigh, int passengers_count);
+
     void Print() const;
+
     std::string GetName() const { return name; };
     int GetReleaseYear() const { return release_year; };
     double GetMaxSpeed() const { return max_speed; };
@@ -26,8 +26,6 @@ public:
     void SetMaxSpeed(double max_speed) { this->max_speed = max_speed; };
     void SetWeight(double weight) { this->weight = weight; };
     void SetPassengersCount(int passengers_count) { this->passengers_count = passengers_count; };
-
-
 };
 
 
